@@ -11,6 +11,13 @@ Mon projet contient principalement le fichier `main.tf`, qui configure les resso
 
 Pour assurer la configuration correcte des ressources réseau, j'ai utilisé la commande Azure CLI suivante pour créer manuellement l'interface réseau dans le réseau virtuel spécifié :
 
+az network nic create \
+    --resource-group ADDA84-CTP \
+    --name devops-20200415 \
+    --vnet-name network-tp4 \
+    --subnet internal
+
+
 #### Déroulement et Configuration
 1. **Initialisation de Terraform**:
    terraform init
