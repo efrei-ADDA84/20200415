@@ -1,7 +1,3 @@
-### README pour le Projet Terraform - Création et Gestion d'Infrastructure Azure
-
-Ce README documente mon projet Terraform destiné à la création et à la gestion d'une infrastructure sur Microsoft Azure, comprenant une machine virtuelle (VM), une interface réseau et une adresse IP publique.
-
 #### Prérequis
 - J'ai installé Terraform sur ma machine locale.
 - J'ai installé et configuré Azure CLI pour accéder à mon abonnement Azure.
@@ -50,6 +46,4 @@ Cette commande a permis de s'assurer que l'interface réseau est correctement co
    ```
    J'ai confirmé avec 'yes' et les ressources, y compris la machine virtuelle, l'interface réseau, et l'adresse IP publique ont été détruites sans problème.
 
-#### Problèmes rencontrés
-Lors de la création de la machine virtuelle, j'ai initialement rencontré un problème d'image non disponible, mais après ajustement, la création s'est déroulée sans autres problèmes.
 
