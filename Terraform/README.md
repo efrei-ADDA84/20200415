@@ -9,6 +9,8 @@ Mon projet contient principalement le fichier `main.tf`, qui configure les resso
 - **Interface réseau (`azurerm_network_interface`)**: Configure une interface réseau pour la VM.
 - **Machine Virtuelle Linux (`azurerm_linux_virtual_machine`)**: Déploie une VM utilisant une image d'Ubuntu Server.
 
+Pour assurer la configuration correcte des ressources réseau, j'ai utilisé la commande Azure CLI suivante pour créer manuellement l'interface réseau dans le réseau virtuel spécifié :
+
 #### Déroulement et Configuration
 1. **Initialisation de Terraform**:
    terraform init
